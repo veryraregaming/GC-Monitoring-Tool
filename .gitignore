@@ -1,2 +1,3 @@
-logs/device_monitor.log
-
+logs/
+*.log
+devices.config
