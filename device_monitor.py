@@ -1,6 +1,6 @@
 import tkinter as tk
 from PIL import Image, ImageTk
-from tkinter import PhotoImage, scrolledtext
+from tkinter import scrolledtext
 import threading
 import subprocess
 import time
@@ -13,13 +13,24 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 LOGO_PATH = os.path.join(SCRIPT_DIR, "logo.png")
 CONFIG_FILE = os.path.join(SCRIPT_DIR, "devices.config")
 LOGO_SIZE = (200, 200)
-CHECK_INTERVAL = 5  # seconds between each device
+CHECK_INTERVAL = 5  # seconds between each device check
 CYCLE_DELAY = 30  # seconds, delay between monitoring cycles
 LOG_FILE = "device_monitor.log"
+ADB_RETRY_LIMIT = 3  # Number of retries for ADB commands
 
-# Configure logging
-logging.basicConfig(handlers=[RotatingFileHandler(LOG_FILE, maxBytes=5 * 1024 * 1024, backupCount=2)],
-                    level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# Configure logging with a fallback mechanism
+def configure_logging(log_config):
+    log_level = getattr(logging, log_config['LOG_LEVEL'].upper(), logging.INFO)
+    try:
+        logging.basicConfig(handlers=[RotatingFileHandler(
+            log_config['LOG_PATH'],
+            maxBytes=int(log_config['LOG_MAX_SIZE']),
+            backupCount=int(log_config['LOG_BACKUP_COUNT']))],
+            level=log_level, format='%(asctime)s - %(levelname)s - %(message)s')
+    except Exception as e:
+        # Fallback to console logging in case of failure
+        logging.basicConfig(level=log_level, format='%(asctime)s - %(levelname)s - %(message)s')
+        logging.error(f"Logging configuration failed: {e}")
 
 class DeviceMonitorApp:
     logo_row = 1
@@ -28,17 +39,18 @@ class DeviceMonitorApp:
         self.root = root
         self.root.title("Rare's Device Monitor")
         self.devices, self.log_config = self.load_config(CONFIG_FILE)
-        self.configure_logging()
+        configure_logging(self.log_config)  # Use the new logging setup
         self.status_labels = {}
         self.setup_ui()
         self.monitoring_thread = threading.Thread(target=self.monitor_devices, args=(queue.Queue(),), daemon=True)
         self.monitoring_thread.start()
 
+    # Updated load_config method with validation
     def load_config(self, file_name):
         devices = {}
         log_config = {'LOG_PATH': 'logs/device_monitor.log',
                       'LOG_LEVEL': 'INFO',
-                      'LOG_MAX_SIZE': 5 * 1024 * 1024,  # Default: 5 MB in bytes
+                      'LOG_MAX_SIZE': 5 * 1024 * 1024,
                       'LOG_BACKUP_COUNT': 2}
         try:
             with open(file_name, 'r') as file:
@@ -50,34 +62,14 @@ class DeviceMonitorApp:
                         log_config[key] = int(value) if key == 'LOG_MAX_SIZE' else value
                     else:
                         devices[key] = value
-            return devices, log_config
         except FileNotFoundError:
             self.log(f"Error: Configuration file '{file_name}' not found.")
             return {}, log_config
+        except Exception as e:
+            self.log(f"Error reading configuration file: {e}")
+            return {}, log_config
 
-    def configure_logging(self):
-        log_level = getattr(logging, self.log_config['LOG_LEVEL'].upper(), logging.INFO)
-
-        log_dir = os.path.dirname(self.log_config['LOG_PATH'])
-        if not os.path.exists(log_dir):
-            os.makedirs(log_dir)
-
-        logging.basicConfig(handlers=[RotatingFileHandler(
-            self.log_config['LOG_PATH'],
-            maxBytes=int(self.log_config['LOG_MAX_SIZE']),
-            backupCount=int(self.log_config['LOG_BACKUP_COUNT']))],
-            level=log_level,
-            format='%(asctime)s - %(levelname)s - %(message)s')
-
-    def reset_adb_server(self):
-        self.log("Resetting ADB server...")
-        self.run_adb_command("adb kill-server")
-        self.run_adb_command("adb start-server")
-
-        for _, ip in self.devices.items():
-            connect_cmd = f"adb connect {ip}"
-            connect_result = self.run_adb_command(connect_cmd)
-            self.log(f"Connected to {ip}: {connect_result}")
+        return devices, log_config
 
     def setup_ui(self):
         self.root.configure(bg="#333333")
@@ -127,13 +119,22 @@ class DeviceMonitorApp:
         logging.info(log_message)
 
     def restart_gc_services(self, device_ip):
-        # Force close Pokemon Go and restart GC
         command1 = f"adb -s {device_ip} shell am force-stop com.nianticlabs.pokemongo"
         command2 = f"adb -s {device_ip} shell am start -n com.gocheats.launcher/com.gocheats.launcher.MainActivity"
 
         self.run_adb_command(command1)
         time.sleep(5)  # Add a delay to ensure processes are terminated before starting GC
         self.run_adb_command(command2)
+
+    def reset_adb_server(self):
+        self.log("Resetting ADB server...")
+        self.run_adb_command("adb kill-server")
+        self.run_adb_command("adb start-server")
+
+        for _, ip in self.devices.items():
+            connect_cmd = f"adb connect {ip}"
+            connect_result = self.run_adb_command(connect_cmd)
+            self.log(f"Connected to {ip}: {connect_result}")
 
     def auto_restart_services(self, device_ip):
         self.log(f"Auto-restarting device {device_ip}")
@@ -149,13 +150,24 @@ class DeviceMonitorApp:
             gc_label.config(text=f"GC: {'Running' if gc_status else 'Not Running'}", bg="green" if gc_status else "red")
         self.root.after(0, _update)
 
+    # Updated run_adb_command with retry mechanism
     def run_adb_command(self, command):
-        try:
-            result = subprocess.run(command, shell=True, capture_output=True, text=True)
-            return result.stdout.strip()
-        except subprocess.SubprocessError as e:
-            self.log(f"Error running command '{command}': {e}")
-            return None
+        attempt = 0
+        while attempt < ADB_RETRY_LIMIT:
+            try:
+                result = subprocess.run(command, shell=True, capture_output=True, text=True)
+                if result.returncode == 0:
+                    return result.stdout.strip()
+                else:
+                    self.log(f"ADB command failed, attempt {attempt + 1}: {result.stderr.strip()}")
+            except subprocess.SubprocessError as e:
+                self.log(f"Error running command '{command}': {e}")
+
+            attempt += 1
+            time.sleep(1)  # Wait a bit before retrying
+
+        self.log(f"Failed to execute ADB command after {ADB_RETRY_LIMIT} attempts.")
+        return None
 
     def check_package_status(self, device_ip, package_name):
         command = f"adb -s {device_ip} shell pm list packages {package_name}"
@@ -163,21 +175,12 @@ class DeviceMonitorApp:
         return result == f"package:{package_name}"
 
     def check_gc_service_status(self, device_ip, timeout=10):
-        # Check if the GC service is actively updating by examining the logcat output
         logcat_command = f"adb -s {device_ip} logcat -d -s Exeggcute"
-        
         try:
-            # Run the logcat command and capture the output
             result = subprocess.run(logcat_command, shell=True, capture_output=True, text=True, timeout=timeout)
             logcat_output = result.stdout.strip()
-            
-            # Check if the logcat output contains any new lines, indicating activity
-            if logcat_output:
-                return True  # Service is actively updating
-            else:
-                return False  # Service appears frozen
+            return bool(logcat_output)
         except subprocess.TimeoutExpired:
-            # If the logcat command times out, consider it as service frozen
             return False
 
     def monitor_devices(self, device_queue):
@@ -191,29 +194,18 @@ class DeviceMonitorApp:
                 current_device_index += 1
                 self.log(f"Device {current_device_index}/{total_devices}: Checking {device_name} - {device_ip}")
 
-                # Perform the device status check here
                 pokemon_go_status = self.check_package_status(device_ip, "com.nianticlabs.pokemongo")
                 gocheats_status = self.check_package_status(device_ip, "com.gocheats.launcher")
+                gc_status = self.check_gc_service_status(device_ip, timeout=10)
 
-                # Check GC service status
-                gc_status = self.check_gc_service_status(device_ip, timeout=10)  # Adjust timeout as needed
-
-                # Provide appropriate verbose log messages based on the status check
-                if pokemon_go_status or gocheats_status:
-                    self.log(f"Pokemon Go & GC Service Running on {device_name}")
-                else:
-                    if gc_status:
-                        self.log(f"Pokemon Go & GC Service Appears Frozen on {device_name}, Restarting Services...")
-                    else:
-                        self.log(f"Pokemon Go & GC Service Not Running on {device_name}, Restarting Services...")
+                if not (pokemon_go_status or gocheats_status):
+                    self.log(f"Pokemon Go & GC Service Not Running on {device_name}, Restarting Services...")
                     self.auto_restart_services(device_ip)
 
-                # Update the status of the device in the UI
                 self.update_device_status(device_name, pokemon_go_status, gc_status)
 
                 time.sleep(CHECK_INTERVAL)
 
-                # Add a delay at the end of each device check
                 if current_device_index < total_devices:
                     time.sleep(CHECK_INTERVAL)
 
