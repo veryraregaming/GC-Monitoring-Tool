@@ -3,6 +3,7 @@ from PIL import Image, ImageTk
 from tkinter import scrolledtext
 import threading
 import subprocess
+import datetime
 import time
 import logging
 from logging.handlers import RotatingFileHandler
@@ -174,14 +175,24 @@ class DeviceMonitorApp:
         result = self.run_adb_command(command)
         return result == f"package:{package_name}"
 
-    def check_gc_service_status(self, device_ip, timeout=10):
-        logcat_command = f"adb -s {device_ip} logcat -d -s Exeggcute"
+    def check_gc_service_status(self, device_ip, monitoring_duration=10):
+        active_service_indicator = "Handled RPC request"  # Indicator of active service
+        logcat_command = f"adb -s {device_ip} logcat -T 1 -s Exeggcute"  # Starts logcat from the most recent log entry
+
         try:
-            result = subprocess.run(logcat_command, shell=True, capture_output=True, text=True, timeout=timeout)
-            logcat_output = result.stdout.strip()
-            return bool(logcat_output)
-        except subprocess.TimeoutExpired:
-            return False
+            process = subprocess.Popen(logcat_command, shell=True, stdout=subprocess.PIPE, text=True)
+
+            start_time = datetime.datetime.now()
+            while (datetime.datetime.now() - start_time).total_seconds() < monitoring_duration:
+                line = process.stdout.readline().strip()
+                if active_service_indicator in line:
+                    process.kill()
+                    return True  # Active indicator found within the window
+            process.kill()
+            return False  # No active indicators found within the duration
+        except subprocess.SubprocessError as e:
+            return False  # Error occurred, unable to verify status
+
 
     def monitor_devices(self, device_queue):
         while True:
@@ -196,13 +207,17 @@ class DeviceMonitorApp:
 
                 pokemon_go_status = self.check_package_status(device_ip, "com.nianticlabs.pokemongo")
                 gocheats_status = self.check_package_status(device_ip, "com.gocheats.launcher")
-                gc_status = self.check_gc_service_status(device_ip, timeout=10)
 
-                if not (pokemon_go_status or gocheats_status):
-                    self.log(f"Pokemon Go & GC Service Not Running on {device_name}, Restarting Services...")
-                    self.auto_restart_services(device_ip)
+                # Check if GC service is active using the new method
+                gc_active = self.check_gc_service_status(device_ip, monitoring_duration=10)
 
-                self.update_device_status(device_name, pokemon_go_status, gc_status)
+                if gc_active:
+                    self.log(f"GC Service Running on {device_name}")
+                    self.update_device_status(device_name, pokemon_go_status, True)  # Update UI to show GC service is running
+                else:
+                    self.log(f"GC Service Not Running or Frozen on {device_name}, Restarting Services...")
+                    self.update_device_status(device_name, pokemon_go_status, False)  # Update UI to show GC service is not running
+                    self.restart_gc_services(device_ip)  # Restart GC service for this device
 
                 time.sleep(CHECK_INTERVAL)
 
