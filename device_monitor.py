@@ -74,7 +74,7 @@ class DeviceMonitorApp:
     def setup_ui(self):
         self.root.configure(bg="#333333")
         self.add_logo(LOGO_PATH, LOGO_SIZE)
-        title_label = tk.Label(self.root, text="Rare's Device Monitor", font=("Helvetica", 16), fg="white", bg="#333333")
+        title_label = tk.Label(self.root, text="GC-Monitoring-Tool by Rare", font=("Helvetica", 16), fg="white", bg="#333333")
         title_label.grid(row=0, column=0, columnspan=4, pady=10)
 
         row = 2
