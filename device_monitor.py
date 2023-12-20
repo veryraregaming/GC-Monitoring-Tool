@@ -83,7 +83,7 @@ class DeviceMonitorApp:
         self.root.configure(bg="#333333")
         self.add_logo(LOGO_PATH, LOGO_SIZE)
         title_label = tk.Label(self.root, text="Rare's Device Monitor", font=("Helvetica", 16), fg="white", bg="#333333")
-        title_label.grid(row=0, column=0, columnspan=4, pady=10)  # Adjust columnspan for new label
+        title_label.grid(row=0, column=0, columnspan=4, pady=10)
 
         row = 2
         for name, ip in self.devices.items():
@@ -97,11 +97,11 @@ class DeviceMonitorApp:
             gc_label.grid(row=0, column=2, padx=5)
             self.status_labels[name, 'gc'] = gc_label
             restart_gc_button = tk.Button(device_frame, text="Restart GC", command=lambda d=ip: self.restart_gc_services(d))
-            restart_gc_button.grid(row=0, column=3, padx=5)  # Adjusted button position
+            restart_gc_button.grid(row=0, column=3, padx=5)
             row += 1
 
         self.log_text = scrolledtext.ScrolledText(self.root, height=10, bg="#222222", fg="white")
-        self.log_text.grid(row=row, column=0, columnspan=4, sticky="ew", padx=20, pady=10)  # Adjusted columnspan
+        self.log_text.grid(row=row, column=0, columnspan=4, sticky="ew", padx=20, pady=10)
 
     def add_logo(self, path, size):
         try:
