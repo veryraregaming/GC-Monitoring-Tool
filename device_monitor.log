@@ -1,0 +1,913 @@
+2023-12-19 18:42:44,688 - INFO - Found services on 192.168.50.101
+2023-12-19 18:42:44,813 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 18:42:44,813 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 18:42:55,605 - INFO - Found services on 192.168.50.101
+2023-12-19 18:42:55,705 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 18:42:55,706 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 18:47:30,567 - INFO - Found services on 192.168.50.101
+2023-12-19 18:47:30,671 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 18:47:30,671 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 18:47:41,595 - INFO - Found services on 192.168.50.101
+2023-12-19 18:47:41,689 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 18:47:41,689 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 18:47:52,588 - INFO - Found services on 192.168.50.101
+2023-12-19 18:47:52,739 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 18:47:52,739 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 18:50:28,028 - INFO - Found services on 192.168.50.101
+2023-12-19 18:50:28,133 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 18:50:28,133 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 18:50:38,925 - INFO - Found services on 192.168.50.101
+2023-12-19 18:50:39,029 - INFO - No services found on 192.168.50.102
+2023-12-19 18:50:49,701 - INFO - Found services on 192.168.50.101
+2023-12-19 18:50:49,794 - INFO - No services found on 192.168.50.102
+2023-12-19 18:51:00,491 - INFO - Found services on 192.168.50.101
+2023-12-19 18:51:00,589 - INFO - No services found on 192.168.50.102
+2023-12-19 18:51:11,416 - INFO - Found services on 192.168.50.101
+2023-12-19 18:51:11,513 - INFO - No services found on 192.168.50.102
+2023-12-19 18:51:22,128 - INFO - Found services on 192.168.50.101
+2023-12-19 18:51:22,224 - INFO - No services found on 192.168.50.102
+2023-12-19 18:51:33,035 - INFO - Found services on 192.168.50.101
+2023-12-19 18:51:33,134 - INFO - No services found on 192.168.50.102
+2023-12-19 18:51:43,938 - INFO - Found services on 192.168.50.101
+2023-12-19 18:51:44,034 - INFO - No services found on 192.168.50.102
+2023-12-19 18:51:54,713 - INFO - Found services on 192.168.50.101
+2023-12-19 18:51:54,811 - INFO - No services found on 192.168.50.102
+2023-12-19 18:56:11,929 - INFO - Found services on 192.168.50.101
+2023-12-19 18:56:12,054 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 18:56:12,055 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 18:56:25,132 - INFO - Found services on 192.168.50.101
+2023-12-19 18:56:25,244 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 18:56:25,245 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 18:56:25,387 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 18:56:25,387 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 18:56:25,527 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 18:56:25,527 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 18:56:25,661 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 18:56:25,661 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 18:56:25,802 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 18:56:25,803 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 18:56:25,954 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 18:56:25,955 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 18:56:56,809 - INFO - Found services on 192.168.50.101
+2023-12-19 18:56:56,904 - INFO - No services found on 192.168.50.102
+2023-12-19 18:56:57,000 - INFO - No services found on 192.168.50.103
+2023-12-19 18:56:57,097 - INFO - No services found on 192.168.50.104
+2023-12-19 18:56:57,191 - INFO - No services found on 192.168.50.105
+2023-12-19 18:56:57,285 - INFO - No services found on 192.168.50.106
+2023-12-19 18:56:57,396 - INFO - No services found on 192.168.50.107
+2023-12-19 18:57:28,149 - INFO - Found services on 192.168.50.101
+2023-12-19 18:57:28,250 - INFO - No services found on 192.168.50.102
+2023-12-19 18:57:28,352 - INFO - No services found on 192.168.50.103
+2023-12-19 18:57:28,473 - INFO - No services found on 192.168.50.104
+2023-12-19 18:57:28,569 - INFO - No services found on 192.168.50.105
+2023-12-19 18:57:28,671 - INFO - No services found on 192.168.50.106
+2023-12-19 18:57:28,771 - INFO - No services found on 192.168.50.107
+2023-12-19 18:57:59,535 - INFO - Found services on 192.168.50.101
+2023-12-19 18:57:59,630 - INFO - No services found on 192.168.50.102
+2023-12-19 18:57:59,726 - INFO - No services found on 192.168.50.103
+2023-12-19 18:57:59,821 - INFO - No services found on 192.168.50.104
+2023-12-19 18:57:59,915 - INFO - No services found on 192.168.50.105
+2023-12-19 18:58:00,032 - INFO - No services found on 192.168.50.106
+2023-12-19 18:58:00,130 - INFO - No services found on 192.168.50.107
+2023-12-19 18:59:07,883 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 18:59:07,893 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 18:59:07,898 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 18:59:07,899 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 18:59:07,912 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 18:59:07,915 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 18:59:07,921 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 18:59:07,921 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 18:59:07,921 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 18:59:07,921 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 18:59:07,921 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 18:59:07,922 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 18:59:07,922 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 18:59:07,923 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 18:59:07,924 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 18:59:07,926 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 18:59:07,930 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 18:59:07,938 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 18:59:07,939 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 18:59:07,940 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 18:59:07,941 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 18:59:07,941 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 18:59:07,943 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 18:59:07,943 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 18:59:08,609 - INFO - Found services on 192.168.50.101
+2023-12-19 18:59:08,668 - INFO - Found services on 192.168.50.101
+2023-12-19 18:59:38,187 - INFO - No services found on 192.168.50.103
+2023-12-19 18:59:38,207 - INFO - No services found on 192.168.50.103
+2023-12-19 18:59:38,231 - INFO - No services found on 192.168.50.102
+2023-12-19 18:59:38,300 - INFO - No services found on 192.168.50.107
+2023-12-19 18:59:38,306 - INFO - No services found on 192.168.50.102
+2023-12-19 18:59:38,310 - INFO - No services found on 192.168.50.105
+2023-12-19 18:59:38,310 - INFO - No services found on 192.168.50.106
+2023-12-19 18:59:38,310 - INFO - No services found on 192.168.50.104
+2023-12-19 18:59:38,313 - INFO - No services found on 192.168.50.104
+2023-12-19 18:59:38,314 - INFO - No services found on 192.168.50.106
+2023-12-19 18:59:38,326 - INFO - No services found on 192.168.50.105
+2023-12-19 18:59:38,347 - INFO - No services found on 192.168.50.107
+2023-12-19 18:59:39,557 - INFO - Found services on 192.168.50.101
+2023-12-19 18:59:39,606 - INFO - Found services on 192.168.50.101
+2023-12-19 19:00:08,300 - INFO - No services found on 192.168.50.103
+2023-12-19 19:00:08,320 - INFO - No services found on 192.168.50.103
+2023-12-19 19:00:08,375 - INFO - No services found on 192.168.50.102
+2023-12-19 19:00:08,494 - INFO - No services found on 192.168.50.102
+2023-12-19 19:00:08,514 - INFO - No services found on 192.168.50.106
+2023-12-19 19:00:08,525 - INFO - No services found on 192.168.50.107
+2023-12-19 19:00:08,528 - INFO - No services found on 192.168.50.104
+2023-12-19 19:00:08,529 - INFO - No services found on 192.168.50.104
+2023-12-19 19:00:08,533 - INFO - No services found on 192.168.50.105
+2023-12-19 19:00:08,543 - INFO - No services found on 192.168.50.107
+2023-12-19 19:00:08,543 - INFO - No services found on 192.168.50.105
+2023-12-19 19:00:08,543 - INFO - No services found on 192.168.50.106
+2023-12-19 19:00:10,272 - INFO - Found services on 192.168.50.101
+2023-12-19 19:00:10,317 - INFO - Restarting service com.exeggcute.launcher on 192.168.50.102
+2023-12-19 19:00:10,320 - INFO - Found services on 192.168.50.101
+2023-12-19 19:00:14,150 - INFO - Restarting service com.exeggcute.launcher on 192.168.50.102
+2023-12-19 19:00:38,404 - INFO - No services found on 192.168.50.103
+2023-12-19 19:00:38,424 - INFO - No services found on 192.168.50.103
+2023-12-19 19:00:38,483 - INFO - No services found on 192.168.50.102
+2023-12-19 19:00:38,693 - INFO - No services found on 192.168.50.102
+2023-12-19 19:00:38,717 - INFO - No services found on 192.168.50.106
+2023-12-19 19:00:38,739 - INFO - No services found on 192.168.50.104
+2023-12-19 19:00:38,739 - INFO - No services found on 192.168.50.107
+2023-12-19 19:00:38,739 - INFO - No services found on 192.168.50.104
+2023-12-19 19:00:38,744 - INFO - No services found on 192.168.50.107
+2023-12-19 19:00:38,751 - INFO - No services found on 192.168.50.105
+2023-12-19 19:00:38,751 - INFO - No services found on 192.168.50.105
+2023-12-19 19:00:38,751 - INFO - No services found on 192.168.50.106
+2023-12-19 19:00:41,097 - INFO - Found services on 192.168.50.101
+2023-12-19 19:00:41,142 - INFO - Found services on 192.168.50.101
+2023-12-19 19:05:53,940 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:05:53,941 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:05:53,969 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:05:53,969 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:05:53,969 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:05:53,971 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:05:53,972 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:05:53,972 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:05:53,999 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:05:54,000 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:05:54,009 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:05:54,013 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:05:54,030 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:05:54,033 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:05:54,045 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:05:54,046 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:05:54,048 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:05:54,048 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:05:54,049 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:05:54,049 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:05:54,051 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:05:54,051 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:05:54,053 - INFO - No services found on 192.168.50.105
+2023-12-19 19:05:54,507 - INFO - Found services on 192.168.50.101
+2023-12-19 19:05:54,591 - INFO - Found services on 192.168.50.101
+2023-12-19 19:06:24,350 - INFO - No services found on 192.168.50.107
+2023-12-19 19:06:24,353 - INFO - No services found on 192.168.50.103
+2023-12-19 19:06:24,357 - INFO - No services found on 192.168.50.105
+2023-12-19 19:06:24,361 - INFO - No services found on 192.168.50.107
+2023-12-19 19:06:24,365 - INFO - No services found on 192.168.50.105
+2023-12-19 19:06:24,368 - INFO - No services found on 192.168.50.106
+2023-12-19 19:06:24,375 - INFO - No services found on 192.168.50.102
+2023-12-19 19:06:24,378 - INFO - No services found on 192.168.50.102
+2023-12-19 19:06:24,383 - INFO - No services found on 192.168.50.106
+2023-12-19 19:06:24,393 - INFO - No services found on 192.168.50.104
+2023-12-19 19:06:24,405 - INFO - No services found on 192.168.50.104
+2023-12-19 19:06:24,406 - INFO - No services found on 192.168.50.103
+2023-12-19 19:06:25,516 - INFO - Found services on 192.168.50.101
+2023-12-19 19:06:25,563 - INFO - Found services on 192.168.50.101
+2023-12-19 19:06:45,226 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:06:45,226 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:06:45,226 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:06:45,255 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:06:45,255 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:06:45,255 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:06:45,255 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:06:45,255 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:06:45,261 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:06:45,261 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:06:45,261 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:06:45,261 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:06:45,262 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:06:45,262 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:06:45,262 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:06:45,262 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:06:45,272 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:06:45,272 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:06:45,273 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:06:45,273 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:06:45,278 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:06:45,278 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:06:45,279 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:06:45,279 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:06:45,909 - INFO - Found services on 192.168.50.101
+2023-12-19 19:06:45,944 - INFO - Found services on 192.168.50.101
+2023-12-19 19:07:15,477 - INFO - No services found on 192.168.50.103
+2023-12-19 19:07:15,522 - INFO - No services found on 192.168.50.107
+2023-12-19 19:07:15,535 - INFO - No services found on 192.168.50.105
+2023-12-19 19:07:15,536 - INFO - No services found on 192.168.50.103
+2023-12-19 19:07:15,537 - INFO - No services found on 192.168.50.106
+2023-12-19 19:07:15,537 - INFO - No services found on 192.168.50.102
+2023-12-19 19:07:15,538 - INFO - No services found on 192.168.50.104
+2023-12-19 19:07:15,538 - INFO - No services found on 192.168.50.102
+2023-12-19 19:07:15,546 - INFO - No services found on 192.168.50.104
+2023-12-19 19:07:15,546 - INFO - No services found on 192.168.50.107
+2023-12-19 19:07:15,546 - INFO - No services found on 192.168.50.106
+2023-12-19 19:07:15,546 - INFO - No services found on 192.168.50.105
+2023-12-19 19:07:16,873 - INFO - Found services on 192.168.50.101
+2023-12-19 19:07:16,918 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:03,775 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:03,899 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:08:03,902 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:08:04,051 - INFO - No services found on 192.168.50.102
+2023-12-19 19:08:04,060 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:08:04,064 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:08:04,203 - INFO - No services found on 192.168.50.103
+2023-12-19 19:08:04,205 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:08:04,209 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:08:04,356 - INFO - No services found on 192.168.50.104
+2023-12-19 19:08:04,361 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:08:04,365 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:08:04,504 - INFO - No services found on 192.168.50.105
+2023-12-19 19:08:04,510 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:04,512 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:08:04,516 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:08:04,656 - INFO - No services found on 192.168.50.106
+2023-12-19 19:08:04,658 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:08:04,663 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:08:04,815 - INFO - No services found on 192.168.50.107
+2023-12-19 19:08:05,393 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:05,500 - INFO - No services found on 192.168.50.102
+2023-12-19 19:08:05,618 - INFO - No services found on 192.168.50.102
+2023-12-19 19:08:05,618 - INFO - No services found on 192.168.50.103
+2023-12-19 19:08:05,759 - INFO - No services found on 192.168.50.104
+2023-12-19 19:08:05,759 - INFO - No services found on 192.168.50.103
+2023-12-19 19:08:05,881 - INFO - No services found on 192.168.50.105
+2023-12-19 19:08:05,881 - INFO - No services found on 192.168.50.104
+2023-12-19 19:08:06,008 - INFO - No services found on 192.168.50.105
+2023-12-19 19:08:06,008 - INFO - No services found on 192.168.50.106
+2023-12-19 19:08:06,119 - INFO - No services found on 192.168.50.106
+2023-12-19 19:08:06,119 - INFO - No services found on 192.168.50.107
+2023-12-19 19:08:06,183 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:06,238 - INFO - No services found on 192.168.50.107
+2023-12-19 19:08:24,726 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:24,842 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:08:24,846 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:08:24,989 - INFO - No services found on 192.168.50.102
+2023-12-19 19:08:25,000 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:08:25,003 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:08:25,145 - INFO - No services found on 192.168.50.103
+2023-12-19 19:08:25,149 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:08:25,152 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:08:25,289 - INFO - No services found on 192.168.50.104
+2023-12-19 19:08:25,293 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:08:25,298 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:08:25,439 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:08:25,439 - INFO - No services found on 192.168.50.105
+2023-12-19 19:08:25,439 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:25,443 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:08:25,576 - INFO - No services found on 192.168.50.106
+2023-12-19 19:08:25,582 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:08:25,586 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:08:25,718 - INFO - No services found on 192.168.50.107
+2023-12-19 19:08:26,393 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:26,499 - INFO - No services found on 192.168.50.102
+2023-12-19 19:08:26,620 - INFO - No services found on 192.168.50.102
+2023-12-19 19:08:26,620 - INFO - No services found on 192.168.50.103
+2023-12-19 19:08:26,732 - INFO - No services found on 192.168.50.104
+2023-12-19 19:08:26,732 - INFO - No services found on 192.168.50.103
+2023-12-19 19:08:26,848 - INFO - No services found on 192.168.50.105
+2023-12-19 19:08:26,848 - INFO - No services found on 192.168.50.104
+2023-12-19 19:08:26,960 - INFO - No services found on 192.168.50.106
+2023-12-19 19:08:26,960 - INFO - No services found on 192.168.50.105
+2023-12-19 19:08:27,074 - INFO - No services found on 192.168.50.107
+2023-12-19 19:08:27,074 - INFO - No services found on 192.168.50.106
+2023-12-19 19:08:27,202 - INFO - No services found on 192.168.50.107
+2023-12-19 19:08:27,334 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:53,258 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:53,371 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:08:53,375 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:08:53,519 - INFO - No services found on 192.168.50.102
+2023-12-19 19:08:53,525 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:08:53,531 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:08:53,675 - INFO - No services found on 192.168.50.103
+2023-12-19 19:08:53,676 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:08:53,680 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:08:53,825 - INFO - No services found on 192.168.50.104
+2023-12-19 19:08:53,828 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:08:53,832 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:08:53,963 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:53,971 - INFO - No services found on 192.168.50.105
+2023-12-19 19:08:53,971 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:08:53,975 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:08:54,113 - INFO - No services found on 192.168.50.106
+2023-12-19 19:08:54,113 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:08:54,117 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:08:54,246 - INFO - No services found on 192.168.50.107
+2023-12-19 19:08:54,813 - INFO - Found services on 192.168.50.101
+2023-12-19 19:08:54,917 - INFO - No services found on 192.168.50.102
+2023-12-19 19:08:55,037 - INFO - No services found on 192.168.50.102
+2023-12-19 19:08:55,037 - INFO - No services found on 192.168.50.103
+2023-12-19 19:08:55,170 - INFO - No services found on 192.168.50.103
+2023-12-19 19:08:55,171 - INFO - No services found on 192.168.50.104
+2023-12-19 19:08:55,293 - INFO - No services found on 192.168.50.105
+2023-12-19 19:08:55,293 - INFO - No services found on 192.168.50.104
+2023-12-19 19:08:55,416 - INFO - No services found on 192.168.50.105
+2023-12-19 19:08:55,416 - INFO - No services found on 192.168.50.106
+2023-12-19 19:08:55,542 - INFO - No services found on 192.168.50.106
+2023-12-19 19:08:55,542 - INFO - No services found on 192.168.50.107
+2023-12-19 19:08:55,661 - INFO - No services found on 192.168.50.107
+2023-12-19 19:08:55,717 - INFO - Found services on 192.168.50.101
+2023-12-19 19:09:25,748 - INFO - Found services on 192.168.50.101
+2023-12-19 19:09:25,859 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:09:25,860 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:09:26,003 - INFO - No services found on 192.168.50.102
+2023-12-19 19:09:26,008 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:09:26,009 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:09:26,149 - INFO - No services found on 192.168.50.103
+2023-12-19 19:09:26,151 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:09:26,152 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:09:26,280 - INFO - No services found on 192.168.50.104
+2023-12-19 19:09:26,290 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:09:26,290 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:09:26,316 - INFO - Found services on 192.168.50.101
+2023-12-19 19:09:26,424 - INFO - No services found on 192.168.50.105
+2023-12-19 19:09:26,428 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:09:26,428 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:09:26,577 - INFO - No services found on 192.168.50.106
+2023-12-19 19:09:26,577 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:09:26,577 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:09:26,704 - INFO - No services found on 192.168.50.107
+2023-12-19 19:09:27,301 - INFO - Found services on 192.168.50.101
+2023-12-19 19:09:27,402 - INFO - No services found on 192.168.50.102
+2023-12-19 19:09:27,518 - INFO - No services found on 192.168.50.102
+2023-12-19 19:09:27,518 - INFO - No services found on 192.168.50.103
+2023-12-19 19:09:27,625 - INFO - No services found on 192.168.50.104
+2023-12-19 19:09:27,626 - INFO - No services found on 192.168.50.103
+2023-12-19 19:09:27,736 - INFO - No services found on 192.168.50.104
+2023-12-19 19:09:27,736 - INFO - No services found on 192.168.50.105
+2023-12-19 19:09:27,855 - INFO - No services found on 192.168.50.106
+2023-12-19 19:09:27,855 - INFO - No services found on 192.168.50.105
+2023-12-19 19:09:27,935 - INFO - Found services on 192.168.50.101
+2023-12-19 19:09:27,965 - INFO - No services found on 192.168.50.106
+2023-12-19 19:09:27,965 - INFO - No services found on 192.168.50.107
+2023-12-19 19:09:28,084 - INFO - No services found on 192.168.50.107
+2023-12-19 19:13:22,754 - INFO - Found services on 192.168.50.101
+2023-12-19 19:13:22,871 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:13:22,872 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:13:23,015 - INFO - No services found on 192.168.50.102
+2023-12-19 19:13:23,019 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:13:23,021 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:13:23,149 - INFO - No services found on 192.168.50.103
+2023-12-19 19:13:23,156 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:13:23,157 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:13:23,292 - INFO - No services found on 192.168.50.104
+2023-12-19 19:13:23,294 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:13:23,295 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:13:23,424 - INFO - No services found on 192.168.50.105
+2023-12-19 19:13:23,429 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:13:23,431 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:13:23,564 - INFO - No services found on 192.168.50.106
+2023-12-19 19:13:23,566 - INFO - Found services on 192.168.50.101
+2023-12-19 19:13:23,567 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:13:23,567 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:13:23,694 - INFO - No services found on 192.168.50.107
+2023-12-19 19:13:24,469 - INFO - Found services on 192.168.50.101
+2023-12-19 19:13:24,566 - INFO - No services found on 192.168.50.102
+2023-12-19 19:13:24,677 - INFO - No services found on 192.168.50.102
+2023-12-19 19:13:24,677 - INFO - No services found on 192.168.50.103
+2023-12-19 19:13:24,792 - INFO - No services found on 192.168.50.103
+2023-12-19 19:13:24,792 - INFO - No services found on 192.168.50.104
+2023-12-19 19:13:24,899 - INFO - No services found on 192.168.50.105
+2023-12-19 19:13:24,899 - INFO - No services found on 192.168.50.104
+2023-12-19 19:13:25,006 - INFO - No services found on 192.168.50.106
+2023-12-19 19:13:25,006 - INFO - No services found on 192.168.50.105
+2023-12-19 19:13:25,129 - INFO - No services found on 192.168.50.107
+2023-12-19 19:13:25,129 - INFO - No services found on 192.168.50.106
+2023-12-19 19:13:25,257 - INFO - No services found on 192.168.50.107
+2023-12-19 19:13:25,355 - INFO - Found services on 192.168.50.101
+2023-12-19 19:13:55,338 - INFO - No services found on 192.168.50.106
+2023-12-19 19:13:55,372 - INFO - No services found on 192.168.50.103
+2023-12-19 19:13:55,372 - INFO - No services found on 192.168.50.102
+2023-12-19 19:13:55,373 - INFO - No services found on 192.168.50.104
+2023-12-19 19:13:55,374 - INFO - No services found on 192.168.50.105
+2023-12-19 19:13:55,444 - INFO - No services found on 192.168.50.107
+2023-12-19 19:13:56,169 - INFO - Found services on 192.168.50.101
+2023-12-19 19:14:04,088 - INFO - Found services on 192.168.50.101
+2023-12-19 19:14:04,194 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:14:04,195 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:14:04,329 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:14:04,329 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:14:04,475 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:14:04,475 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:14:04,611 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:14:04,612 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:14:04,752 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:14:04,752 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:14:04,919 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:14:04,919 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:14:05,645 - INFO - Found services on 192.168.50.101
+2023-12-19 19:14:05,759 - INFO - No services found on 192.168.50.102
+2023-12-19 19:14:05,883 - INFO - No services found on 192.168.50.103
+2023-12-19 19:14:06,007 - INFO - No services found on 192.168.50.104
+2023-12-19 19:14:06,118 - INFO - No services found on 192.168.50.105
+2023-12-19 19:14:06,231 - INFO - No services found on 192.168.50.106
+2023-12-19 19:14:06,337 - INFO - No services found on 192.168.50.107
+2023-12-19 19:14:06,474 - INFO - Found services on 192.168.50.101
+2023-12-19 19:14:06,474 - INFO - No services found on 192.168.50.103
+2023-12-19 19:14:06,474 - INFO - No services found on 192.168.50.102
+2023-12-19 19:14:06,474 - INFO - No services found on 192.168.50.105
+2023-12-19 19:14:06,474 - INFO - No services found on 192.168.50.104
+2023-12-19 19:14:06,474 - INFO - No services found on 192.168.50.107
+2023-12-19 19:14:06,474 - INFO - No services found on 192.168.50.106
+2023-12-19 19:14:14,482 - INFO - Found services on 192.168.50.101
+2023-12-19 19:14:14,587 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:14:14,587 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:14:14,729 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:14:14,729 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:14:14,872 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:14:14,872 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:14:15,017 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:14:15,017 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:14:15,165 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:14:15,165 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:14:15,300 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:14:15,300 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:14:15,973 - INFO - Found services on 192.168.50.101
+2023-12-19 19:14:16,096 - INFO - No services found on 192.168.50.102
+2023-12-19 19:14:16,220 - INFO - No services found on 192.168.50.103
+2023-12-19 19:14:16,337 - INFO - No services found on 192.168.50.104
+2023-12-19 19:14:16,494 - INFO - No services found on 192.168.50.105
+2023-12-19 19:14:16,612 - INFO - No services found on 192.168.50.106
+2023-12-19 19:14:16,715 - INFO - No services found on 192.168.50.107
+2023-12-19 19:14:16,810 - INFO - No services found on 192.168.50.102
+2023-12-19 19:14:16,810 - INFO - Found services on 192.168.50.101
+2023-12-19 19:14:16,810 - INFO - No services found on 192.168.50.103
+2023-12-19 19:14:16,810 - INFO - No services found on 192.168.50.104
+2023-12-19 19:14:16,825 - INFO - No services found on 192.168.50.105
+2023-12-19 19:14:16,825 - INFO - No services found on 192.168.50.106
+2023-12-19 19:14:16,825 - INFO - No services found on 192.168.50.107
+2023-12-19 19:16:21,741 - INFO - Found services on 192.168.50.101
+2023-12-19 19:16:21,842 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:16:21,843 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:16:21,978 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:16:21,979 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:16:22,120 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:16:22,120 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:16:22,256 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:16:22,256 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:16:22,390 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:16:22,390 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:16:22,536 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:16:22,537 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:16:23,375 - INFO - Found services on 192.168.50.101
+2023-12-19 19:16:23,477 - INFO - No services found on 192.168.50.102
+2023-12-19 19:16:23,590 - INFO - No services found on 192.168.50.103
+2023-12-19 19:16:23,705 - INFO - No services found on 192.168.50.104
+2023-12-19 19:16:23,815 - INFO - No services found on 192.168.50.105
+2023-12-19 19:16:23,935 - INFO - No services found on 192.168.50.106
+2023-12-19 19:16:24,047 - INFO - No services found on 192.168.50.107
+2023-12-19 19:16:24,121 - INFO - No services found on 192.168.50.102
+2023-12-19 19:16:24,123 - INFO - No services found on 192.168.50.103
+2023-12-19 19:16:24,129 - INFO - Found services on 192.168.50.101
+2023-12-19 19:16:24,129 - INFO - No services found on 192.168.50.104
+2023-12-19 19:16:24,137 - INFO - No services found on 192.168.50.105
+2023-12-19 19:16:24,185 - INFO - No services found on 192.168.50.106
+2023-12-19 19:16:24,185 - INFO - No services found on 192.168.50.107
+2023-12-19 19:16:34,592 - INFO - Found services on 192.168.50.101
+2023-12-19 19:16:34,701 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:16:34,701 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:16:34,875 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:16:34,875 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:16:35,020 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:16:35,020 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:16:35,159 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:16:35,160 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:16:35,311 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:16:35,311 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:16:35,460 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:16:35,461 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:16:36,332 - INFO - Found services on 192.168.50.101
+2023-12-19 19:16:36,439 - INFO - No services found on 192.168.50.102
+2023-12-19 19:16:36,566 - INFO - No services found on 192.168.50.103
+2023-12-19 19:16:36,685 - INFO - No services found on 192.168.50.104
+2023-12-19 19:16:36,799 - INFO - No services found on 192.168.50.105
+2023-12-19 19:16:36,908 - INFO - No services found on 192.168.50.106
+2023-12-19 19:16:37,031 - INFO - No services found on 192.168.50.107
+2023-12-19 19:16:37,109 - INFO - No services found on 192.168.50.102
+2023-12-19 19:16:37,109 - INFO - No services found on 192.168.50.103
+2023-12-19 19:16:37,109 - INFO - No services found on 192.168.50.104
+2023-12-19 19:16:37,119 - INFO - No services found on 192.168.50.105
+2023-12-19 19:16:37,167 - INFO - No services found on 192.168.50.106
+2023-12-19 19:16:37,167 - INFO - No services found on 192.168.50.107
+2023-12-19 19:16:37,341 - INFO - Found services on 192.168.50.101
+2023-12-19 19:16:56,868 - INFO - Found services on 192.168.50.101
+2023-12-19 19:16:56,974 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:16:56,974 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:16:57,116 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:16:57,116 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:16:57,287 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:16:57,287 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:16:57,435 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:16:57,435 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:16:57,569 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:16:57,569 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:16:57,707 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:16:57,707 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:16:58,418 - INFO - Found services on 192.168.50.101
+2023-12-19 19:16:58,523 - INFO - No services found on 192.168.50.102
+2023-12-19 19:16:58,635 - INFO - No services found on 192.168.50.103
+2023-12-19 19:16:58,754 - INFO - No services found on 192.168.50.104
+2023-12-19 19:16:58,871 - INFO - No services found on 192.168.50.105
+2023-12-19 19:16:58,996 - INFO - No services found on 192.168.50.106
+2023-12-19 19:16:59,114 - INFO - No services found on 192.168.50.107
+2023-12-19 19:16:59,216 - INFO - No services found on 192.168.50.102
+2023-12-19 19:16:59,216 - INFO - No services found on 192.168.50.103
+2023-12-19 19:16:59,216 - INFO - No services found on 192.168.50.104
+2023-12-19 19:16:59,216 - INFO - No services found on 192.168.50.105
+2023-12-19 19:16:59,216 - INFO - Found services on 192.168.50.101
+2023-12-19 19:16:59,216 - INFO - No services found on 192.168.50.106
+2023-12-19 19:16:59,241 - INFO - No services found on 192.168.50.107
+2023-12-19 19:17:29,419 - INFO - No services found on 192.168.50.105
+2023-12-19 19:17:29,431 - INFO - No services found on 192.168.50.106
+2023-12-19 19:17:29,436 - INFO - No services found on 192.168.50.102
+2023-12-19 19:17:29,439 - INFO - No services found on 192.168.50.104
+2023-12-19 19:17:29,442 - INFO - No services found on 192.168.50.103
+2023-12-19 19:17:29,466 - INFO - No services found on 192.168.50.107
+2023-12-19 19:17:30,046 - INFO - Found services on 192.168.50.101
+2023-12-19 19:17:44,224 - INFO - Found services on 192.168.50.101
+2023-12-19 19:17:44,328 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:17:44,328 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:17:44,471 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:17:44,471 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:17:44,605 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:17:44,605 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:17:44,740 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:17:44,741 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:17:44,889 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:17:44,889 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:17:45,028 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:17:45,028 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:17:45,845 - INFO - Found services on 192.168.50.101
+2023-12-19 19:17:45,947 - INFO - No services found on 192.168.50.102
+2023-12-19 19:17:46,059 - INFO - No services found on 192.168.50.103
+2023-12-19 19:17:46,171 - INFO - No services found on 192.168.50.104
+2023-12-19 19:17:46,277 - INFO - No services found on 192.168.50.105
+2023-12-19 19:17:46,382 - INFO - No services found on 192.168.50.106
+2023-12-19 19:17:46,506 - INFO - No services found on 192.168.50.107
+2023-12-19 19:17:46,584 - INFO - No services found on 192.168.50.102
+2023-12-19 19:17:46,584 - INFO - Found services on 192.168.50.101
+2023-12-19 19:17:46,584 - INFO - No services found on 192.168.50.104
+2023-12-19 19:17:46,585 - INFO - No services found on 192.168.50.103
+2023-12-19 19:17:46,598 - INFO - No services found on 192.168.50.105
+2023-12-19 19:17:46,642 - INFO - No services found on 192.168.50.106
+2023-12-19 19:17:46,642 - INFO - No services found on 192.168.50.107
+2023-12-19 19:18:16,731 - INFO - No services found on 192.168.50.104
+2023-12-19 19:18:16,734 - INFO - No services found on 192.168.50.102
+2023-12-19 19:18:16,734 - INFO - No services found on 192.168.50.103
+2023-12-19 19:18:16,781 - INFO - No services found on 192.168.50.107
+2023-12-19 19:18:16,781 - INFO - No services found on 192.168.50.106
+2023-12-19 19:18:16,781 - INFO - No services found on 192.168.50.105
+2023-12-19 19:18:17,422 - INFO - Found services on 192.168.50.101
+2023-12-19 19:18:46,888 - INFO - No services found on 192.168.50.104
+2023-12-19 19:18:46,898 - INFO - No services found on 192.168.50.102
+2023-12-19 19:18:46,908 - INFO - No services found on 192.168.50.103
+2023-12-19 19:18:46,930 - INFO - No services found on 192.168.50.107
+2023-12-19 19:18:46,939 - INFO - No services found on 192.168.50.105
+2023-12-19 19:18:46,943 - INFO - No services found on 192.168.50.106
+2023-12-19 19:18:48,286 - INFO - Found services on 192.168.50.101
+2023-12-19 19:19:07,261 - INFO - Found services on 192.168.50.101
+2023-12-19 19:19:07,365 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:19:07,365 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:19:07,502 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:19:07,502 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:19:07,643 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:19:07,643 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:19:07,787 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:19:07,787 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:19:07,923 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:19:07,923 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:19:08,060 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:19:08,060 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:19:08,146 - INFO - No services found on 192.168.50.103
+2023-12-19 19:19:08,146 - INFO - No services found on 192.168.50.102
+2023-12-19 19:19:08,146 - INFO - No services found on 192.168.50.105
+2023-12-19 19:19:08,146 - INFO - Found services on 192.168.50.101
+2023-12-19 19:19:08,206 - INFO - No services found on 192.168.50.106
+2023-12-19 19:19:08,206 - INFO - No services found on 192.168.50.104
+2023-12-19 19:19:08,206 - INFO - No services found on 192.168.50.107
+2023-12-19 19:20:24,349 - INFO - Found services on 192.168.50.101
+2023-12-19 19:20:24,460 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:20:24,460 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:20:24,620 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:20:24,620 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:20:24,765 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:20:24,765 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:20:24,911 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:20:24,911 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:20:25,056 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:20:25,056 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:20:25,189 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:20:25,189 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:20:25,275 - INFO - No services found on 192.168.50.105
+2023-12-19 19:20:25,279 - INFO - No services found on 192.168.50.103
+2023-12-19 19:20:25,332 - INFO - Found services on 192.168.50.101
+2023-12-19 19:20:25,332 - INFO - No services found on 192.168.50.104
+2023-12-19 19:20:25,332 - INFO - No services found on 192.168.50.106
+2023-12-19 19:20:25,332 - INFO - No services found on 192.168.50.102
+2023-12-19 19:20:25,364 - INFO - No services found on 192.168.50.107
+2023-12-19 19:20:31,057 - INFO - Found services on 192.168.50.101
+2023-12-19 19:20:31,170 - INFO - Auto-restarting services on 192.168.50.102
+2023-12-19 19:20:31,170 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:20:31,323 - INFO - Auto-restarting services on 192.168.50.103
+2023-12-19 19:20:31,324 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:20:31,464 - INFO - Auto-restarting services on 192.168.50.104
+2023-12-19 19:20:31,464 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:20:31,627 - INFO - Auto-restarting services on 192.168.50.105
+2023-12-19 19:20:31,627 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:20:31,766 - INFO - Auto-restarting services on 192.168.50.106
+2023-12-19 19:20:31,767 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:20:31,901 - INFO - Auto-restarting services on 192.168.50.107
+2023-12-19 19:20:31,901 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:20:31,989 - INFO - Found services on 192.168.50.101
+2023-12-19 19:20:31,989 - INFO - No services found on 192.168.50.105
+2023-12-19 19:20:31,989 - INFO - No services found on 192.168.50.103
+2023-12-19 19:20:31,999 - INFO - No services found on 192.168.50.106
+2023-12-19 19:20:32,054 - INFO - No services found on 192.168.50.104
+2023-12-19 19:20:32,054 - INFO - No services found on 192.168.50.102
+2023-12-19 19:20:32,054 - INFO - No services found on 192.168.50.107
+2023-12-19 19:21:02,141 - INFO - No services found on 192.168.50.105
+2023-12-19 19:21:02,141 - INFO - No services found on 192.168.50.103
+2023-12-19 19:21:02,150 - INFO - No services found on 192.168.50.106
+2023-12-19 19:21:02,224 - INFO - No services found on 192.168.50.104
+2023-12-19 19:21:02,225 - INFO - No services found on 192.168.50.107
+2023-12-19 19:21:02,228 - INFO - No services found on 192.168.50.102
+2023-12-19 19:21:02,713 - INFO - Found services on 192.168.50.101
+2023-12-19 19:21:32,273 - INFO - No services found on 192.168.50.103
+2023-12-19 19:21:32,274 - INFO - No services found on 192.168.50.105
+2023-12-19 19:21:32,279 - INFO - No services found on 192.168.50.106
+2023-12-19 19:21:32,357 - INFO - No services found on 192.168.50.104
+2023-12-19 19:21:32,357 - INFO - No services found on 192.168.50.107
+2023-12-19 19:21:32,360 - INFO - No services found on 192.168.50.102
+2023-12-19 19:21:33,586 - INFO - Found services on 192.168.50.101
+2023-12-19 19:22:45,139 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:22:45,249 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:22:45,283 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV02 (192.168.50.102)
+2023-12-19 19:22:45,405 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:22:45,440 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV03 (192.168.50.103)
+2023-12-19 19:22:45,557 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:22:45,596 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV04 (192.168.50.104)
+2023-12-19 19:22:45,702 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:22:45,737 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV05 (192.168.50.105)
+2023-12-19 19:22:45,841 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:22:45,874 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV06 (192.168.50.106)
+2023-12-19 19:22:45,975 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:22:46,009 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV07 (192.168.50.107)
+2023-12-19 19:22:46,084 - INFO - GC and Pokemon Go Not Found on ATV05 (192.168.50.105)
+2023-12-19 19:22:46,084 - INFO - GC and Pokemon Go Not Found on ATV06 (192.168.50.106)
+2023-12-19 19:22:46,084 - INFO - GC and Pokemon Go Not Found on ATV03 (192.168.50.103)
+2023-12-19 19:22:46,101 - INFO - GC and Pokemon Go Not Found on ATV04 (192.168.50.104)
+2023-12-19 19:22:46,101 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:22:46,113 - INFO - GC and Pokemon Go Not Found on ATV02 (192.168.50.102)
+2023-12-19 19:22:46,113 - INFO - GC and Pokemon Go Not Found on ATV07 (192.168.50.107)
+2023-12-19 19:23:25,397 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:23:25,502 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:23:25,535 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV02 (192.168.50.102)
+2023-12-19 19:23:25,648 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:23:25,682 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV03 (192.168.50.103)
+2023-12-19 19:23:25,790 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:23:25,827 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV04 (192.168.50.104)
+2023-12-19 19:23:25,934 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:23:25,968 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV05 (192.168.50.105)
+2023-12-19 19:23:26,078 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:23:26,112 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV06 (192.168.50.106)
+2023-12-19 19:23:26,216 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:23:26,248 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV07 (192.168.50.107)
+2023-12-19 19:23:26,323 - INFO - GC and Pokemon Go Not Found on ATV05 (192.168.50.105)
+2023-12-19 19:23:26,323 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:23:26,323 - INFO - GC and Pokemon Go Not Found on ATV06 (192.168.50.106)
+2023-12-19 19:23:26,323 - INFO - GC and Pokemon Go Not Found on ATV03 (192.168.50.103)
+2023-12-19 19:23:26,389 - INFO - GC and Pokemon Go Not Found on ATV04 (192.168.50.104)
+2023-12-19 19:23:26,389 - INFO - GC and Pokemon Go Not Found on ATV07 (192.168.50.107)
+2023-12-19 19:23:26,390 - INFO - GC and Pokemon Go Not Found on ATV02 (192.168.50.102)
+2023-12-19 19:23:56,477 - INFO - GC and Pokemon Go Not Found on ATV05 (192.168.50.105)
+2023-12-19 19:23:56,480 - INFO - GC and Pokemon Go Not Found on ATV03 (192.168.50.103)
+2023-12-19 19:23:56,483 - INFO - GC and Pokemon Go Not Found on ATV06 (192.168.50.106)
+2023-12-19 19:23:56,533 - INFO - GC and Pokemon Go Not Found on ATV07 (192.168.50.107)
+2023-12-19 19:23:56,533 - INFO - GC and Pokemon Go Not Found on ATV02 (192.168.50.102)
+2023-12-19 19:23:56,534 - INFO - GC and Pokemon Go Not Found on ATV04 (192.168.50.104)
+2023-12-19 19:23:57,165 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:24:26,611 - INFO - GC and Pokemon Go Not Found on ATV03 (192.168.50.103)
+2023-12-19 19:24:26,616 - INFO - GC and Pokemon Go Not Found on ATV05 (192.168.50.105)
+2023-12-19 19:24:26,631 - INFO - GC and Pokemon Go Not Found on ATV06 (192.168.50.106)
+2023-12-19 19:24:26,685 - INFO - GC and Pokemon Go Not Found on ATV02 (192.168.50.102)
+2023-12-19 19:24:26,685 - INFO - GC and Pokemon Go Not Found on ATV07 (192.168.50.107)
+2023-12-19 19:24:26,685 - INFO - GC and Pokemon Go Not Found on ATV04 (192.168.50.104)
+2023-12-19 19:24:27,909 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:24:56,748 - INFO - GC and Pokemon Go Not Found on ATV03 (192.168.50.103)
+2023-12-19 19:24:56,749 - INFO - GC and Pokemon Go Not Found on ATV05 (192.168.50.105)
+2023-12-19 19:24:56,778 - INFO - GC and Pokemon Go Not Found on ATV06 (192.168.50.106)
+2023-12-19 19:24:56,822 - INFO - GC and Pokemon Go Not Found on ATV07 (192.168.50.107)
+2023-12-19 19:24:56,824 - INFO - GC and Pokemon Go Not Found on ATV04 (192.168.50.104)
+2023-12-19 19:24:56,824 - INFO - GC and Pokemon Go Not Found on ATV02 (192.168.50.102)
+2023-12-19 19:24:58,650 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:25:26,900 - INFO - GC and Pokemon Go Not Found on ATV05 (192.168.50.105)
+2023-12-19 19:25:26,906 - INFO - GC and Pokemon Go Not Found on ATV03 (192.168.50.103)
+2023-12-19 19:25:26,933 - INFO - GC and Pokemon Go Not Found on ATV06 (192.168.50.106)
+2023-12-19 19:25:26,972 - INFO - GC and Pokemon Go Not Found on ATV07 (192.168.50.107)
+2023-12-19 19:25:26,973 - INFO - GC and Pokemon Go Not Found on ATV02 (192.168.50.102)
+2023-12-19 19:25:26,983 - INFO - GC and Pokemon Go Not Found on ATV04 (192.168.50.104)
+2023-12-19 19:25:29,324 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:26:15,570 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:26:15,676 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:26:15,710 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV02 (192.168.50.102)
+2023-12-19 19:26:15,833 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:26:15,868 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV03 (192.168.50.103)
+2023-12-19 19:26:15,976 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:26:16,009 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV04 (192.168.50.104)
+2023-12-19 19:26:16,115 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:26:16,148 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV05 (192.168.50.105)
+2023-12-19 19:26:16,252 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:26:16,285 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV06 (192.168.50.106)
+2023-12-19 19:26:16,412 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:26:16,444 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV07 (192.168.50.107)
+2023-12-19 19:26:16,522 - INFO - GC and Pokemon Go Not Found on ATV03 (192.168.50.103)
+2023-12-19 19:26:16,522 - INFO - GC and Pokemon Go Not Found on ATV05 (192.168.50.105)
+2023-12-19 19:26:16,522 - INFO - GC and Pokemon Go Not Found on ATV06 (192.168.50.106)
+2023-12-19 19:26:16,522 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:26:16,522 - INFO - GC and Pokemon Go Not Found on ATV04 (192.168.50.104)
+2023-12-19 19:26:16,549 - INFO - Device 3/7: Checking ATV03 - 192.168.50.103
+2023-12-19 19:26:16,549 - INFO - Device 6/7: Checking ATV06 - 192.168.50.106
+2023-12-19 19:26:16,550 - INFO - Device 5/7: Checking ATV05 - 192.168.50.105
+2023-12-19 19:26:16,550 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 19:26:16,550 - INFO - Device 4/7: Checking ATV04 - 192.168.50.104
+2023-12-19 19:26:16,550 - INFO - GC and Pokemon Go Not Found on ATV02 (192.168.50.102)
+2023-12-19 19:26:16,550 - INFO - GC and Pokemon Go Not Found on ATV07 (192.168.50.107)
+2023-12-19 19:26:16,577 - INFO - Device 2/7: Checking ATV02 - 192.168.50.102
+2023-12-19 19:26:16,577 - INFO - Device 7/7: Checking ATV07 - 192.168.50.107
+2023-12-19 19:26:46,744 - INFO - GC and Pokemon Go Not Found on ATV05 (192.168.50.105)
+2023-12-19 19:26:46,748 - INFO - Device 5/7: Checking ATV05 - 192.168.50.105
+2023-12-19 19:26:46,749 - INFO - GC and Pokemon Go Not Found on ATV06 (192.168.50.106)
+2023-12-19 19:26:46,752 - INFO - Device 6/7: Checking ATV06 - 192.168.50.106
+2023-12-19 19:26:46,753 - INFO - GC and Pokemon Go Not Found on ATV03 (192.168.50.103)
+2023-12-19 19:26:46,754 - INFO - GC and Pokemon Go Not Found on ATV04 (192.168.50.104)
+2023-12-19 19:26:46,754 - INFO - Device 3/7: Checking ATV03 - 192.168.50.103
+2023-12-19 19:26:46,756 - INFO - Device 4/7: Checking ATV04 - 192.168.50.104
+2023-12-19 19:26:46,772 - INFO - GC and Pokemon Go Not Found on ATV02 (192.168.50.102)
+2023-12-19 19:26:46,773 - INFO - Device 2/7: Checking ATV02 - 192.168.50.102
+2023-12-19 19:26:46,780 - INFO - GC and Pokemon Go Not Found on ATV07 (192.168.50.107)
+2023-12-19 19:26:46,781 - INFO - Device 7/7: Checking ATV07 - 192.168.50.107
+2023-12-19 19:26:47,370 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:26:47,371 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 19:27:16,929 - INFO - GC and Pokemon Go Not Found on ATV05 (192.168.50.105)
+2023-12-19 19:27:16,931 - INFO - Device 5/7: Checking ATV05 - 192.168.50.105
+2023-12-19 19:27:16,940 - INFO - GC and Pokemon Go Not Found on ATV03 (192.168.50.103)
+2023-12-19 19:27:16,941 - INFO - Device 3/7: Checking ATV03 - 192.168.50.103
+2023-12-19 19:27:16,944 - INFO - GC and Pokemon Go Not Found on ATV04 (192.168.50.104)
+2023-12-19 19:27:16,945 - INFO - Device 4/7: Checking ATV04 - 192.168.50.104
+2023-12-19 19:27:16,952 - INFO - GC and Pokemon Go Not Found on ATV06 (192.168.50.106)
+2023-12-19 19:27:16,952 - INFO - Device 6/7: Checking ATV06 - 192.168.50.106
+2023-12-19 19:27:16,960 - INFO - GC and Pokemon Go Not Found on ATV02 (192.168.50.102)
+2023-12-19 19:27:16,961 - INFO - Device 2/7: Checking ATV02 - 192.168.50.102
+2023-12-19 19:27:16,964 - INFO - GC and Pokemon Go Not Found on ATV07 (192.168.50.107)
+2023-12-19 19:27:16,966 - INFO - Device 7/7: Checking ATV07 - 192.168.50.107
+2023-12-19 19:27:18,266 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:27:18,267 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 19:33:05,825 - INFO - Starting device monitoring...
+2023-12-19 19:33:05,826 - INFO - Starting device monitoring...
+2023-12-19 19:33:06,005 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 19:33:06,005 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 19:33:06,878 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:33:06,898 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:33:36,879 - INFO - Device 2/7: Checking ATV02 - 192.168.50.102
+2023-12-19 19:33:36,901 - INFO - Device 2/7: Checking ATV02 - 192.168.50.102
+2023-12-19 19:33:36,990 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV02 (192.168.50.102)
+2023-12-19 19:33:36,991 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:33:37,004 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV02 (192.168.50.102)
+2023-12-19 19:33:37,004 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:34:07,030 - INFO - Device 3/7: Checking ATV03 - 192.168.50.103
+2023-12-19 19:34:07,042 - INFO - Device 3/7: Checking ATV03 - 192.168.50.103
+2023-12-19 19:34:07,146 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV03 (192.168.50.103)
+2023-12-19 19:34:07,146 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:34:07,152 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV03 (192.168.50.103)
+2023-12-19 19:34:07,152 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:34:37,187 - INFO - Device 4/7: Checking ATV04 - 192.168.50.104
+2023-12-19 19:34:37,187 - INFO - Device 4/7: Checking ATV04 - 192.168.50.104
+2023-12-19 19:34:37,298 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV04 (192.168.50.104)
+2023-12-19 19:34:37,298 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV04 (192.168.50.104)
+2023-12-19 19:34:37,300 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:34:37,300 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:35:07,340 - INFO - Device 5/7: Checking ATV05 - 192.168.50.105
+2023-12-19 19:35:07,340 - INFO - Device 5/7: Checking ATV05 - 192.168.50.105
+2023-12-19 19:35:07,450 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV05 (192.168.50.105)
+2023-12-19 19:35:07,451 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV05 (192.168.50.105)
+2023-12-19 19:35:07,451 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:35:07,451 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:35:37,488 - INFO - Device 6/7: Checking ATV06 - 192.168.50.106
+2023-12-19 19:35:37,488 - INFO - Device 6/7: Checking ATV06 - 192.168.50.106
+2023-12-19 19:35:37,607 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV06 (192.168.50.106)
+2023-12-19 19:35:37,607 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV06 (192.168.50.106)
+2023-12-19 19:35:37,608 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:35:37,608 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:36:07,647 - INFO - Device 7/7: Checking ATV07 - 192.168.50.107
+2023-12-19 19:36:07,647 - INFO - Device 7/7: Checking ATV07 - 192.168.50.107
+2023-12-19 19:36:07,763 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV07 (192.168.50.107)
+2023-12-19 19:36:07,763 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV07 (192.168.50.107)
+2023-12-19 19:36:07,763 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:36:07,763 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:37:08,722 - INFO - Starting device monitoring...
+2023-12-19 19:37:08,829 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 19:37:09,692 - INFO - GC and Pokemon Go Found - Service running on ATV01 (192.168.50.101)
+2023-12-19 19:37:14,694 - INFO - Device 2/7: Checking ATV02 - 192.168.50.102
+2023-12-19 19:37:14,799 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV02 (192.168.50.102)
+2023-12-19 19:37:14,800 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:37:14,833 - INFO - Device ATV02 (192.168.50.102) restarted.
+2023-12-19 19:37:19,834 - INFO - Device 3/7: Checking ATV03 - 192.168.50.103
+2023-12-19 19:37:19,945 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV03 (192.168.50.103)
+2023-12-19 19:37:19,946 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:37:19,980 - INFO - Device ATV03 (192.168.50.103) restarted.
+2023-12-19 19:37:24,981 - INFO - Device 4/7: Checking ATV04 - 192.168.50.104
+2023-12-19 19:37:25,090 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV04 (192.168.50.104)
+2023-12-19 19:37:25,090 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:37:25,126 - INFO - Device ATV04 (192.168.50.104) restarted.
+2023-12-19 19:37:30,127 - INFO - Device 5/7: Checking ATV05 - 192.168.50.105
+2023-12-19 19:37:30,232 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV05 (192.168.50.105)
+2023-12-19 19:37:30,232 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:37:30,265 - INFO - Device ATV05 (192.168.50.105) restarted.
+2023-12-19 19:37:35,266 - INFO - Device 6/7: Checking ATV06 - 192.168.50.106
+2023-12-19 19:37:35,420 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV06 (192.168.50.106)
+2023-12-19 19:37:35,420 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:37:35,482 - INFO - Device ATV06 (192.168.50.106) restarted.
+2023-12-19 19:37:40,484 - INFO - Device 7/7: Checking ATV07 - 192.168.50.107
+2023-12-19 19:37:40,597 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV07 (192.168.50.107)
+2023-12-19 19:37:40,598 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:37:40,638 - INFO - Device ATV07 (192.168.50.107) restarted.
+2023-12-19 19:40:58,658 - INFO - Starting device monitoring...
+2023-12-19 19:40:58,874 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 19:40:59,033 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV01 (192.168.50.101)
+2023-12-19 19:40:59,033 - INFO - Auto-restarting device 192.168.50.101
+2023-12-19 19:40:59,081 - INFO - Device ATV01 (192.168.50.101) restarted.
+2023-12-19 19:41:04,082 - INFO - Device 2/7: Checking ATV02 - 192.168.50.102
+2023-12-19 19:41:04,196 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV02 (192.168.50.102)
+2023-12-19 19:41:04,197 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:41:04,232 - INFO - Device ATV02 (192.168.50.102) restarted.
+2023-12-19 19:41:09,233 - INFO - Device 3/7: Checking ATV03 - 192.168.50.103
+2023-12-19 19:41:09,336 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV03 (192.168.50.103)
+2023-12-19 19:41:09,336 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:41:09,371 - INFO - Device ATV03 (192.168.50.103) restarted.
+2023-12-19 19:41:14,371 - INFO - Device 4/7: Checking ATV04 - 192.168.50.104
+2023-12-19 19:41:14,523 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV04 (192.168.50.104)
+2023-12-19 19:41:14,524 - INFO - Auto-restarting device 192.168.50.104
+2023-12-19 19:41:14,571 - INFO - Device ATV04 (192.168.50.104) restarted.
+2023-12-19 19:41:19,572 - INFO - Device 5/7: Checking ATV05 - 192.168.50.105
+2023-12-19 19:41:19,684 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV05 (192.168.50.105)
+2023-12-19 19:41:19,685 - INFO - Auto-restarting device 192.168.50.105
+2023-12-19 19:41:19,726 - INFO - Device ATV05 (192.168.50.105) restarted.
+2023-12-19 19:41:24,728 - INFO - Device 6/7: Checking ATV06 - 192.168.50.106
+2023-12-19 19:41:24,835 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV06 (192.168.50.106)
+2023-12-19 19:41:24,835 - INFO - Auto-restarting device 192.168.50.106
+2023-12-19 19:41:24,870 - INFO - Device ATV06 (192.168.50.106) restarted.
+2023-12-19 19:41:29,871 - INFO - Device 7/7: Checking ATV07 - 192.168.50.107
+2023-12-19 19:41:29,975 - INFO - GC and Pokemon Go Not Found - Auto-restarting services on ATV07 (192.168.50.107)
+2023-12-19 19:41:29,976 - INFO - Auto-restarting device 192.168.50.107
+2023-12-19 19:41:30,011 - INFO - Device ATV07 (192.168.50.107) restarted.
+2023-12-19 19:43:56,704 - INFO - Starting device monitoring...
+2023-12-19 19:43:56,705 - INFO - Restarting ADB server...
+2023-12-19 19:44:34,354 - INFO - Starting device monitoring...
+2023-12-19 19:44:34,354 - INFO - Restarting ADB server...
+2023-12-19 19:46:36,975 - INFO - Starting device monitoring...
+2023-12-19 19:46:36,976 - INFO - Starting device monitoring...
+2023-12-19 19:46:37,163 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 19:46:37,163 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 19:46:37,296 - INFO - Pokemon Go & GC Service Not Running, Restarting Services on ATV01
+2023-12-19 19:46:37,296 - INFO - Pokemon Go & GC Service Not Running, Restarting Services on ATV01
+2023-12-19 19:46:37,298 - INFO - Auto-restarting device 192.168.50.101
+2023-12-19 19:46:37,298 - INFO - Auto-restarting device 192.168.50.101
+2023-12-19 19:47:07,337 - INFO - Device 2/7: Checking ATV02 - 192.168.50.102
+2023-12-19 19:47:07,337 - INFO - Device 2/7: Checking ATV02 - 192.168.50.102
+2023-12-19 19:47:07,452 - INFO - Pokemon Go & GC Service Not Running, Restarting Services on ATV02
+2023-12-19 19:47:07,452 - INFO - Pokemon Go & GC Service Not Running, Restarting Services on ATV02
+2023-12-19 19:47:07,453 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:47:07,453 - INFO - Auto-restarting device 192.168.50.102
+2023-12-19 19:47:37,491 - INFO - Device 3/7: Checking ATV03 - 192.168.50.103
+2023-12-19 19:47:37,492 - INFO - Device 3/7: Checking ATV03 - 192.168.50.103
+2023-12-19 19:47:37,633 - INFO - Pokemon Go & GC Service Not Running, Restarting Services on ATV03
+2023-12-19 19:47:37,633 - INFO - Pokemon Go & GC Service Not Running, Restarting Services on ATV03
+2023-12-19 19:47:37,634 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 19:47:37,635 - INFO - Auto-restarting device 192.168.50.103
+2023-12-19 20:17:57,554 - INFO - Starting device monitoring...
+2023-12-19 20:17:57,556 - INFO - Starting device monitoring...
+2023-12-19 20:17:57,773 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 20:17:57,773 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 20:17:57,905 - INFO - Pokemon Go & GC Service Not Running, Restarting Services on ATV01
+2023-12-19 20:17:57,905 - INFO - Pokemon Go & GC Service Not Running, Restarting Services on ATV01
+2023-12-19 20:17:57,906 - INFO - Auto-restarting device 192.168.50.101
+2023-12-19 20:17:57,906 - INFO - Auto-restarting device 192.168.50.101
+2023-12-19 20:18:12,918 - INFO - Starting device monitoring...
+2023-12-19 20:18:12,918 - INFO - Starting device monitoring...
+2023-12-19 20:18:13,097 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 20:18:13,098 - INFO - Device 1/7: Checking ATV01 - 192.168.50.101
+2023-12-19 20:18:13,746 - INFO - Pokemon Go & GC Service Running, Moving On To Next ATV01
+2023-12-19 20:18:13,808 - INFO - Pokemon Go & GC Service Running, Moving On To Next ATV01
